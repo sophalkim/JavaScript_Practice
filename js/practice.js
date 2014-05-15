@@ -7,7 +7,7 @@
 	}
 
 	function switchImage() {
-		var image = document.getElementById('switchImage');
+		var image = document.getElementById('switchimage');
 		if (image.src.match('images/cat.png')) {
 			image.src = "images/beachball.png";
 		} else {
