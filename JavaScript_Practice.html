@@ -22,13 +22,27 @@
 
 		<button type="button" onclick="myFunction()">Date</button>
 		<p id="demo"></p>
-	</div>
+	
+
+	<hr>
+	<br>
+
+	<button class="btn btn-primary" onclick="changeText()">Change Text</button>
+	<p id="ct">I am here.</p>
 
 	<script>
-		function myFunction() {
-			document.getElementById("demo").innerHTML = Date();
-		}
+	function myFunction() {
+		document.getElementById("demo").innerHTML = Date();
+	}
 	</script>
+
+	<script>
+	function changeText() {
+		document.getElementById("ct").innerHTML = "Gone Fishing.";
+	}
+	</script>
+
+	</div>
 
 </body>
 
