@@ -23,3 +23,13 @@
 			x.style.color = "black";
 		}
 	}
+
+	function isNumber() {
+		var x = document.getElementById('inputbox').value;
+		var y = document.getElementById('result');
+		if (x.trim() == "" || isNaN(x)) {
+			y.innerHTML = "Not a number";
+		} else {
+			y.innerHTML = "OK";
+		}
+	}
