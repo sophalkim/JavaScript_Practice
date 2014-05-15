@@ -1,0 +1,135 @@
+body h1{
+	font-family: 'BrixSlab-ExtraLight', Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 126px;
+	line-height: 117px;
+}
+
+.h7{
+	font-family: 'Avenir LT W01 95 Black', "Helvetica Neue", Arial, Helvetica, Geneva, san-serif;
+	font-weight: normal;
+	font-size: 18px;
+	display: block;
+	line-height: 1;
+}
+
+/* END TYPOGRAPHY */
+
+iframe{
+	max-width: 100%;
+}
+
+.global-header{
+	height: 265px;
+	width: 100%;
+	background: url('img/header-pattern.png')repeat;
+	position: relative;
+	z-index: 1;
+}
+
+.global-header .container {
+	width: 980px;
+}
+
+.header-image{
+	width: 100%;
+	position: absolute;
+	height: 265px;
+	top: 0;
+	z-index: 0;
+}
+
+h1.logo{
+	width: 281px;
+	height: 193px;
+	float: left;
+	text-indent: -9999px;
+	margin-top: 36px;
+	background: url('img/logo-inner.png') no-repeat;
+}
+
+.navbar .navbar-inner .container .nav{
+	width: 100%;
+}
+
+#main-nav.navbar .navbar-inner .container{
+	max-width: 100%;
+}
+
+.navbar .navbar-inner .container .nav li{
+	width: 33%;
+}
+
+.navbar .navbar-inner .container .nav li a,
+.navbar-fixed-top .navbar-inner .container .nav li a{
+	padding: 28px 0 24px 0;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Avenir LT W01 95 Black', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: 3px;
+}
+
+.page-id-6 .nav #our-story{
+	color: #14b7ec;
+}
+
+.page-id-8 .nav #menu{
+	color: #14b7ec;
+}
+
+#main-nav{
+	border-bottom: 1px solid #eee;
+}
+
+.page-id-6 .header-image{
+	background: url('img/header-ourstory.jpg') repeat-x left;
+}
+.page-id-8 .header-image{
+	background: url('img/header-menu.jpg') repeat-x left;
+}
+.page-id-10 .header-image{
+	background: url('img/header-locations.jpg') repeat-x left;
+}
+
+/* HOME */
+#slidewrapper {
+	width:100%;
+	overflow: hidden;
+}
+
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	min-width: 1600px;
+	height: 581px;
+	padding: 0;
+	margin: 0 0 0 -800px;
+	left: 50%;
+}
+
+.rslides li {
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	min-width: 100%;
+	min-height: 581px;
+	width: auto;
+	border: 0;
+}
+
