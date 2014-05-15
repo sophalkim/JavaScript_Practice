@@ -14,3 +14,12 @@
 			image.src = "images/cat.png";
 		}
 	}
+
+	function changeToRedText() {
+		var x = document.getElementById('headertext');
+		if (x.style.color.match("black")) {
+			x.style.color = "red";
+		} else {
+			x.style.color = "black";
+		}
+	}
