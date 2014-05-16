@@ -46,7 +46,8 @@
 		var x = document.getElementById('one').value;
 		var y = document.getElementById('two').value;
 		var z = document.getElementById('product');
-		z.innerHTML = x * y;
+		console.log("Variable is" + typeof(x));
+		z.innerHTML = multiply(x, y);
 	}
 
 	function showJavaScriptObject() {
@@ -57,4 +58,8 @@
 			eyeColor : "blue"
 		};
 		document.getElementById("jobjects").innerHTML = person.firstName + " is " + person.age;
+	}
+
+	function multiply(a, b) {
+		return a * b;
 	}
