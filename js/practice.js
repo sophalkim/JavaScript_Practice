@@ -33,3 +33,7 @@
 			y.innerHTML = "OK";
 		}
 	}
+
+	function docWrite() {
+		document.write("Cool");
+	}
