@@ -63,3 +63,8 @@
 	function multiply(a, b) {
 		return a * b;
 	}
+
+	function showDate() {
+		var x = document.getElementById('datebutton');
+		x.innerHTML = Date();
+	}
