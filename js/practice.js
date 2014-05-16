@@ -37,3 +37,7 @@
 	function docWrite() {
 		document.write("Cool");
 	}
+
+	function doConsole() {
+		console.log("You are cool Sophal");
+	}
