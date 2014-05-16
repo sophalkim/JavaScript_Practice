@@ -41,3 +41,10 @@
 	function doConsole() {
 		console.log("You are cool Sophal");
 	}
+
+	function doSum() {
+		var x = document.getElementById('one').value;
+		var y = document.getElementById('two').value;
+		var z = document.getElementById('sum');
+		z.innerHTML = x + y;
+	}
