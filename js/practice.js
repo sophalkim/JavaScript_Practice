@@ -42,9 +42,9 @@
 		console.log("You are cool Sophal");
 	}
 
-	function doSum() {
+	function doMultiply() {
 		var x = document.getElementById('one').value;
 		var y = document.getElementById('two').value;
-		var z = document.getElementById('sum');
-		z.innerHTML = x + y;
+		var z = document.getElementById('product');
+		z.innerHTML = x * y;
 	}
