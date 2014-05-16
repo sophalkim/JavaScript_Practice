@@ -48,3 +48,13 @@
 		var z = document.getElementById('product');
 		z.innerHTML = x * y;
 	}
+
+	function showJavaScriptObject() {
+		var person = {
+			firstName : "John",
+			lastName : "Wells",
+			age: 50,
+			eyeColor : "blue"
+		};
+		document.getElementById("jobjects").innerHTML = person.firstName + " is " + person.age;
+	}
