@@ -92,3 +92,13 @@
 		var z = document.getElementById('word_sentence');
 		z.innerHTML = "Hello, " + x + " and welcome to my webpage";
 	}
+
+	function showMouseOver() {
+		var x = document.getElementById('mouseover_header');
+		x.style.color = "green";
+	}
+
+	function hideMouseOver() {
+		var x = document.getElementById('mouseover_header');
+		x.style.color = "black";
+	}
