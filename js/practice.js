@@ -75,3 +75,14 @@
 		var z = document.getElementById('sum');
 		z.innerHTML = parseInt(x) + parseInt(y);
 	}
+
+	function doAddInternal() {
+		var x = document.getElementById('addition_input_three').value;
+		var y = document.getElementById('addition_input_four').value;
+		var z = document.getElementById('sum2');
+		z.innerHTML = add(x, y);
+	}
+
+	function add(a, b) {
+		return parseInt(a) + parseInt(b);
+	}
