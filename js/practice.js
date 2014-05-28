@@ -116,3 +116,8 @@
 		x.style.height = "200px";
 		x.src = "images/ladybug.png"
 	}
+
+	function showAlert() {
+		var x = document.getElementById('hidden_dialog');
+		alert("You are a cool cat.");
+	}
