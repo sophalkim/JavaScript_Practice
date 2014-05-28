@@ -86,3 +86,9 @@
 	function add(a, b) {
 		return parseInt(a) + parseInt(b);
 	}
+
+	function showSentence() {
+		var x = document.getElementById('word_input_1').value;
+		var z = document.getElementById('word_sentence');
+		z.innerHTML = "Hello, " + x + " and welcome to my webpage";
+	}
