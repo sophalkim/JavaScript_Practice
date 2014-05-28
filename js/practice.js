@@ -102,3 +102,17 @@
 		var x = document.getElementById('mouseover_header');
 		x.style.color = "black";
 	}
+
+	function showNewImage() {
+		var x = document.getElementById("mouseover_image");
+		x.style.width = "150px";
+		x.style.height = "400px";
+		x.src = "images/meerkat.png"
+	}
+
+	function hideNewImage() {
+		var x = document.getElementById("mouseover_image");
+		x.style.width = "200px";
+		x.style.height = "200px";
+		x.src = "images/ladybug.png"
+	}
