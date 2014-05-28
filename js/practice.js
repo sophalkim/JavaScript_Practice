@@ -68,3 +68,10 @@
 		var x = document.getElementById('datebutton');
 		x.innerHTML = Date();
 	}
+
+	function doAdd() {
+		var x = document.getElementById('addition_input_one').value;
+		var y = document.getElementById('addition_input_two').value;
+		var z = document.getElementById('sum');
+		z.innerHTML = parseInt(x) + parseInt(y);
+	}
