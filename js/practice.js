@@ -121,3 +121,9 @@
 		var x = document.getElementById('hidden_dialog');
 		alert("You are a cool cat.");
 	}
+
+	function onChangeInput() {
+		var x = document.getElementById('form_onChange').value;
+		var y = document.getElementById('paragraph_onChange');
+		y.innerHTML = x;
+	}
