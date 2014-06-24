@@ -127,3 +127,15 @@
 		var y = document.getElementById('paragraph_onChange');
 		y.innerHTML = x;
 	}
+
+	function showHawaiiText() {
+		var x = document.getElementById("hawaii");
+		x.style.color = "purple"
+		x.innerHTML = "Now I'm back.";
+	}
+
+	function hideHawaiiText() {
+		var x = document.getElementById("hawaii");
+		x.style.color = "green"
+		x.innerHTML = "I was in Hawaii for 2 weeks, I'm feeling a little rusty";
+	}
