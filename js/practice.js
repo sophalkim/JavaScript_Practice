@@ -179,7 +179,11 @@
 		var x = document.getElementById("text_length_input").value.length;
 		var y = document.getElementById("text_length_button");
 		y.style.color = "yellow";
-		y.innerHTML = "The length of the text is " + "'" + x + "'";
-		y.css('width', '100px').css('background-color', 'green');
-		 
+		y.innerHTML = "The length of the text is " + "'" + x + "'";		 
+	}
+
+	function showTextCool() {
+		var x = document.getElementById("text_cool").innerHTML;
+		var y = document.getElementById("text_cool_button");
+		y.innerHTML = x.indexOf("cool");
 	}
