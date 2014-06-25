@@ -187,3 +187,9 @@
 		var y = document.getElementById("text_cool_button");
 		y.innerHTML = x.indexOf("cool");
 	}
+
+	function textReplace() {
+		var x = document.getElementById("text_replace");
+		var y = x.innerHTML.replace("short", "long");
+		x.innerHTML = y;
+	}
