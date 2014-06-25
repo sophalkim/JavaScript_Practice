@@ -160,3 +160,17 @@
 		var x = document.getElementById("array_text2");
 		x.innerHTML = person["firstName"] + " has " + person["eyeColor"] + " eyes.";
 	}
+
+	function showArrayText3() {
+		var person = {
+			firstName: "Billy",
+			lastName: "Bob",
+			age:31,
+			eyeColor:"black",
+			fullName: function() {
+				return this.firstName + " " + this.lastName;
+			}
+		};
+		var x = document.getElementById("array_text3");
+		x.innerHTML = person.fullName();
+	}
