@@ -193,3 +193,13 @@
 		var y = x.innerHTML.replace("short", "long");
 		x.innerHTML = y;
 	}
+
+	function showUpperCase() {
+		var x = document.getElementById("text_uppercase");
+		x.innerHTML = x.innerHTML.toUpperCase();
+	}
+
+	function hideUpperCase() {
+		var x = document.getElementById("text_uppercase");
+		x.innerHTML = x.innerHTML.toLowerCase();
+	}
