@@ -178,6 +178,8 @@
 	function showTextLength() {
 		var x = document.getElementById("text_length_input").value.length;
 		var y = document.getElementById("text_length_button");
+		y.style.color = "yellow";
 		y.innerHTML = "The length of the text is " + "'" + x + "'";
-		y.style.backgroundColor = "green";
+		y.css('width', '100px').css('background-color', 'green');
+		 
 	}
