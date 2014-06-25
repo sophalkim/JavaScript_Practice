@@ -240,3 +240,9 @@
 		}
 		x.innerHTML = text;
 	}
+
+	function showRandomNumber() {
+		var x = $("text_random_number");
+		var y = Math.random() * 100;
+		x.innerHTML = y.toFixed(0);
+	}
