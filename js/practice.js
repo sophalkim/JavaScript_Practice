@@ -203,3 +203,14 @@
 		var x = document.getElementById("text_uppercase");
 		x.innerHTML = x.innerHTML.toLowerCase();
 	}
+
+	function showSplitArray() {
+		var x = document.getElementById("text_split_array");
+		var arr = x.innerHTML.split(",")
+		x.innerHTML = arr[0];
+	}
+
+	function hideSplitArray() {
+		var x = document.getElementById("text_split_array");
+		x.innerHTML = "This sentence will split into an array, because of the comma.";
+	}
