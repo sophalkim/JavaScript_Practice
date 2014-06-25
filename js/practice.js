@@ -141,7 +141,22 @@
 	}
 
 	function showArrayText() {
-		var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+		var person = {
+			firstName:"John", 
+			lastName:"Doe", 
+			age:50, 
+			eyeColor:"blue"};
 		document.getElementById("array_text").innerHTML = 
 		person.firstName + " is " + person.age + " years old.";
+	}
+
+	function showArrayText2() {
+		var person = {
+			firstName: "Jane",
+			lastName: "Smith",
+			age:22,
+			eyeColor:"brown"
+		};
+		var x = document.getElementById("array_text2");
+		x.innerHTML = person["firstName"] + " has " + person["eyeColor"] + " eyes.";
 	}
