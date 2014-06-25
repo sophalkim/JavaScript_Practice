@@ -139,3 +139,9 @@
 		x.style.color = "green"
 		x.innerHTML = "I was in Hawaii for 2 weeks, I'm feeling a little rusty";
 	}
+
+	function showArrayText() {
+		var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+		document.getElementById("array_text").innerHTML = 
+		person.firstName + " is " + person.age + " years old.";
+	}
