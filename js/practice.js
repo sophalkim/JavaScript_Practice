@@ -231,5 +231,12 @@
 	}
 
 	function multiplyInfinity() {
-		var x = document.getElementById()
+		var x = $("text_infinity");
+		var y = 2;
+		var text = "";
+		while (y != Infinity) {
+			y = y * y;
+			text = text + y + "<br>";
+		}
+		x.innerHTML = text;
 	}
