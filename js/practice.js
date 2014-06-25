@@ -174,3 +174,10 @@
 		var x = document.getElementById("array_text3");
 		x.innerHTML = person.fullName();
 	}
+
+	function showTextLength() {
+		var x = document.getElementById("text_length_input").value.length;
+		var y = document.getElementById("text_length_button");
+		y.innerHTML = "The length of the text is " + "'" + x + "'";
+		y.style.backgroundColor = "green";
+	}
