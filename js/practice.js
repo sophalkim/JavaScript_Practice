@@ -214,3 +214,14 @@
 		var x = document.getElementById("text_split_array");
 		x.innerHTML = "This sentence will split into an array, because of the comma.";
 	}
+
+	function showPrimitive() {
+		var x = document.getElementById("text_primitive");
+		var y = new String(" and an Object String").bold();
+		x.innerHTML =  "This sentence contains a primitive String" + y;
+	}
+
+	function hidePrimitive() {
+		var x = document.getElementById("text_primitive");
+		x.innerHTML = "This sentence contains a primitive String";
+	}
