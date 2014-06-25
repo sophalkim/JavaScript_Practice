@@ -222,6 +222,14 @@
 	}
 
 	function hidePrimitive() {
-		var x = document.getElementById("text_primitive");
+		var x = $("text_primitive");
 		x.innerHTML = "This sentence contains a primitive String";
+	}
+
+	function $(id) {
+		return document.getElementById(id);
+	}
+
+	function multiplyInfinity() {
+		var x = document.getElementById()
 	}
