@@ -265,3 +265,17 @@
 		}
 		return i;
 	}
+
+	function showDate() {
+		var x = $("clock");
+		x.innerHTML = Date();
+	}
+
+	function showArray() {
+		var x = $("text_array");
+		var y = new Array(10);
+		for (int i = 0; i < y.length; i++) {
+			y[i] = i;
+		}
+		x.innerHTML = y[4];
+	}
