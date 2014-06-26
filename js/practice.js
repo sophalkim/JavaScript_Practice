@@ -279,3 +279,21 @@
 		}
 		x.innerHTML = y;
 	}
+
+	function showSort() {
+		var x = $("text_sort");
+		var y = [];
+		var arr = x.innerHTML.split(",");
+		var sortArray = arr.sort();
+		var z = "<ul>";
+		for (var i = 0; i < sortArray.length; i++) {
+			z = z + "<li>" + sortArray[i] + "</li>";
+		}
+		z = z + " </ul>";
+		x.innerHTML = z;
+	}
+
+	function hideSort() {
+		var x = $("text_sort");
+		x.innerHTML = "Orange, Pear, Banana, Apple, Coconut.";
+	}
