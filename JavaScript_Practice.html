@@ -15,7 +15,7 @@
   <link rel="stylesheet" type="text/css" href="css/javascript_practice.css">
 </head>
 
-<body role="document">
+<body role="document" onload="showClock()">
 	<div class="container">
 		<div class="page-header">
 			<h1 style="text-align: center;">JavaScript Practice</h1>
@@ -241,6 +241,11 @@
       <h1>Random Function</h1>
       <button class="btn btn-success" onclick="showRandomNumber()">Random</button>
       <h3 id="text_random_number"></h3>
+
+      <hr>
+      <br>
+      <h1>Clock and Date</h1>
+      <h3 id="clock" onmouseover="showClock()" onmouseout="showDate()">Clock</h3>
 
 		
 
