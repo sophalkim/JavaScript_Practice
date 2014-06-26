@@ -273,12 +273,9 @@
 
 	function showArray() {
 		var x = $("text_array");
-		var y = new Array();
-		var i = 1;
-		while (i < 10) {
+		var y = [];
+		for (var i = 0; i < 10; i++) {
 			y.push(i);
-			i++;
 		}
-		alert(y);
 		x.innerHTML = y;
 	}
