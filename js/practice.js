@@ -297,3 +297,16 @@
 		var x = $("text_sort");
 		x.innerHTML = "Orange, Pear, Banana, Apple, Coconut.";
 	}
+
+	function showJoin() {
+		var x = $("text_join");
+		var y = [];
+		var arr = x.innerHTML.split(",");
+		var joinedArray = arr.join(" *** ");
+		x.innerHTML = joinedArray;
+	}
+
+	function hideJoin() {
+		var x = $("text_join");
+		x.innerHTML = "Red, Blue, Green, Yellow";
+	}
