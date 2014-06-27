@@ -374,3 +374,11 @@
 			y.className = "btn btn-info";
 		}
 	}
+
+	function showError() {
+		try {
+			adddlert("It worked, there was no error.");
+		} catch (err) {
+			alert("There was an error.");
+		}
+	}
