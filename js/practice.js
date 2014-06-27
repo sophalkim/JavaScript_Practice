@@ -359,3 +359,12 @@
 			x.src = "images/beermug.jpg";
 		}
 	}
+
+	function changeIcon() {
+		var x = $("button_icon");
+		if (x.className == "glyphicon glyphicon-star") {
+			x.className = "glyphicon glyphicon-search";
+		} else {
+			x.className = "glyphicon glyphicon-star";
+		}	
+	}
