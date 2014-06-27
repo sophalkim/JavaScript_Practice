@@ -349,3 +349,13 @@
 			x.innerHTML = "Popping, Pushing, Shifting, UnShifting";
 		}
 	}
+
+	function showDrink() {
+		var x = $("image_drink");
+		var age = $("input_age").value;
+		if (age < 21) {
+			x.src = "images/milk.jpg";
+		} else {
+			x.src = "images/beermug.jpg";
+		}
+	}
