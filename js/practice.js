@@ -300,7 +300,6 @@
 
 	function showJoin() {
 		var x = $("text_join");
-		var y = [];
 		var arr = x.innerHTML.split(",");
 		var joinedArray = arr.join(" *** ");
 		x.innerHTML = joinedArray;
@@ -309,4 +308,24 @@
 	function hideJoin() {
 		var x = $("text_join");
 		x.innerHTML = "Red, Blue, Green, Yellow";
+	}
+
+	function showPop() {
+		var x = $("text_pop");
+		var arr = x.innerHTML.split(",");
+		var pop = arr.pop();
+		x.innerHTML = arr;
+		if (arr.length == 0) {
+			x.innerHTML = "Popping, Pushing, Shifting, UnShifting";
+		}
+	}
+
+	function showPush() {
+		var x = $("text_pop");
+		var arr = x.innerHTML.split(",");
+		var pop = arr.push("Push");
+		x.innerHTML = arr;
+		if (arr.length > 8) {
+			x.innerHTML = "Popping, Pushing, Shifting, UnShifting";
+		}
 	}
