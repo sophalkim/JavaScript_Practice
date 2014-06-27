@@ -382,3 +382,14 @@
 			alert("There was an error.");
 		}
 	}
+
+	function showJSON() {
+		var text = '{"employees":[' +
+'{"firstName":"John","lastName":"Doe" },' +
+'{"firstName":"Anna","lastName":"Smith" },' +
+'{"firstName":"Peter","lastName":"Jones" }]}';
+
+		var obj = JSON.parse(text);
+		var x = $("text_json");
+		x.innerHTML = obj.employees[0].firstName + " " + obj.employees[0].lastName;
+	}
