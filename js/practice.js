@@ -329,3 +329,23 @@
 			x.innerHTML = "Popping, Pushing, Shifting, UnShifting";
 		}
 	}
+
+	function showShift() {
+		var x = $("text_pop");
+		var arr = x.innerHTML.split(",");
+		var pop = arr.shift();
+		x.innerHTML = arr;
+		if (arr.length == 0) {
+			x.innerHTML = "Popping, Pushing, Shifting, UnShifting";
+		}
+	}
+
+	function showUnShift() {
+		var x = $("text_pop");
+		var arr = x.innerHTML.split(",");
+		var pop = arr.unshift("UnShift");
+		x.innerHTML = arr;
+		if (arr.length > 8) {
+			x.innerHTML = "Popping, Pushing, Shifting, UnShifting";
+		}
+	}
