@@ -367,4 +367,10 @@
 		} else {
 			x.className = "glyphicon glyphicon-star";
 		}	
+		var y = $("button_color");
+		if (y.className == "btn btn-info") {
+			y.className = "btn btn-danger";
+		} else {
+			y.className = "btn btn-info";
+		}
 	}
