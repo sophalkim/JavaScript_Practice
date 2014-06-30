@@ -385,11 +385,32 @@
 
 	function showJSON() {
 		var text = '{"employees":[' +
-'{"firstName":"John","lastName":"Doe" },' +
-'{"firstName":"Anna","lastName":"Smith" },' +
-'{"firstName":"Peter","lastName":"Jones" }]}';
+			'{"firstName":"John","lastName":"Doe" },' +
+			'{"firstName":"Anna","lastName":"Smith" },' +
+			'{"firstName":"Peter","lastName":"Jones" }]}';
 
 		var obj = JSON.parse(text);
 		var x = $("text_json");
 		x.innerHTML = obj.employees[0].firstName + " " + obj.employees[0].lastName;
+	}
+
+	function showJSONArray() {
+		var myArray = [
+			{	"display": "Javascript Tutorial",
+				"url": "http://www.w3schools.com/js/default.asp"
+			},
+			{	"display": "HTML Tutorial",
+				"url": "http://www.w3schools.com/html/default.asp"
+			},
+			{
+				"display": "CSS Tutorial",
+				"url": "http://www.w3schools.com/css/default.asp"
+			}
+		];
+		var x = $("text_json_array");
+		var out = "";
+		for (var i = 0; i < myArray.length; i++) {
+			out += '<a href="' + myArray[i].url + '">' + myArray[i].display + '</a><br>';
+		}
+		x.innerHTML = out.fontsize(7);
 	}
