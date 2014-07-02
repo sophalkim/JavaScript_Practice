@@ -419,6 +419,12 @@
 		var x = $("input_first_name").value;
 		var y = $("input_last_name").value;
 		var z = $("text_constructor");
-		var k = "Hi, my name is " + x + " " + y;
+		var newPerson = new person(x, y);
+		var k = "Hi, my name is " + newPerson.firstName + " " + newPerson.lastName;
 		z.innerHTML = k.fontsize(7);
+	}
+
+	function person(firstName, lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
 	}
