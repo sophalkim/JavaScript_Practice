@@ -428,3 +428,14 @@
 		this.firstName = firstName;
 		this.lastName = lastName;
 	}
+
+	function showForLoop() {
+		var x = $("text_for_loop");
+		var person = {firstName:"Billy", lastName:"Bob", age:31};
+		var text = "";
+		var y;
+		for (y in person) {
+			text += person[y] + " ";
+		}
+		x.innerHTML = text;
+	}
