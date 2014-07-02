@@ -414,3 +414,11 @@
 		}
 		x.innerHTML = out.fontsize(7);
 	}
+
+	function showConstructor() {
+		var x = $("input_first_name").value;
+		var y = $("input_last_name").value;
+		var z = $("text_constructor");
+		var k = "Hi, my name is " + x + " " + y;
+		z.innerHTML = k.fontsize(7);
+	}
