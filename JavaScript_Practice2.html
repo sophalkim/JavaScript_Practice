@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial=scale1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="favicon.ico">
+	<title>JavaScript Practice</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/boostrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/theme.css">
+	<link rel="stylesheet" type="text/css" href="css/javascript_practice.css">
+</head>
+
+
+<body role="document" onload="showClock()">
+	<div class="container">
+		<div class="page-header">
+			<h1 style="text-align: center">Javascript Practice</h1>
+		</div>
+	</div>
+
+	<button type="button" onclick="displayText()"></button>
+	<p id="demo"></p>
+
+	<hr>
+	<br>
+
+	<button class="btn btn-primary" onclick="changeText()">Change Text</button>
+	<p id="ct">I am here.</p>
+
+	<hr>
+	<br>
+
+	<img id="switchimage" src="images/cat.png" onclick="switchImage()" width="200px" height="200px"></img>
+
+	<hr>
+	<br>
+
+	<h3 id="headertext">This might turn Red.</h3>
+	<button class="btn btn-success" onclick="changeToRedText()">Red</button>
+
+	<hr>
+	<br>
+	<h3>Please Input a Number</h3>
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="input-group">
+				<span class="input-group-btn">
+					<button class="btn btn-info" onclick="isNumber()">Go!</button>
+				</span>
+				<input type="text" class="form-control" id="inputbox"></input>
+			</div>
+			<p id="result"></p>
+		</div>
+	</div>
+
+	<hr>
+	<br>
+	<h1>Document.write()</h1>
+	<button class="btn btn-warning" onclick="docWrite()">Clear and Write</button>
+
+</body>
+</html>
