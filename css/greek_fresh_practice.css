@@ -1,0 +1,41 @@
+body h1 {
+	font-family: 'BrixSlab-ExtraLight', Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 126px;
+	line-height: 117px;
+}
+
+.modal-header h3 {
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.header_image {
+	width: 100%;
+	position: absolute;
+	height: 265px;
+	top: 0;
+	z-index: 0;
+}
+
+h1.logo {
+	width: 281px;
+	height: 193px;
+	float: left;
+	text-indent: -9999px;
+	margin-top: 36px;
+	background: url('img/logo-inner.jpg') no-repeat;
+}
+
+.global-header .order-online {
+	width: 107px;
+	height: 89px;
+	text-indent: -9999px;
+	float: right;
+	margin-right: 60px;
+	background: url('img/order-online.png') no-repeat;
+}
+
+.navbar .navbar-inner .container .nav {
+	width: 100%;
+}
