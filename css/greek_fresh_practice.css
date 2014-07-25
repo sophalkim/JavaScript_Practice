@@ -5,6 +5,56 @@ body h1 {
 	line-height: 117px;
 }
 
+body h2 {
+	font-family: 'BrixSlab-ExtraLight', Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 60px;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+body h3 {
+	font-family: 'Avenir LT W01 95 Black', "Helvetica Neue", Arial, Helvetica, Geneva, san-serif;
+	font-weight: normal;
+	font-size: 34px;
+	line-height: 1;
+}
+
+body h4 {
+	font-family: 'Avenir LT W01 45 Book', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 1;
+}
+
+body h5 {
+	font-family: 'BrixSlab-ExtraLight', Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 1;
+}
+
+iframe {
+	max-width: 100%;
+}
+
+.navbar .navbar-inner .container .nav li {
+	width: 33%;
+}
+
+.navbar .navbar-inner .container .nav li a,
+.navbar-fixed-top .navbar-inner .container .nav li a {
+	padding: 28px 0 24px 0;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Avenir LT W01 95 Black', 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: 3px;
+}
+
+.page-id-6 .nav #our-story {
+	color: #14b7ec;
+}
+
 .modal-header h3 {
 	font-size: 18px;
 	line-height: 27px;
@@ -39,3 +89,20 @@ h1.logo {
 .navbar .navbar-inner .container .nav {
 	width: 100%;
 }
+
+.page-id-6 .nav #our-story {
+	color: #14b7ec;
+}
+
+.page-id-8 .nav #menu {
+	color: #14b7ec;
+}
+
+.page-id-10 .nav #locations {
+	color: #14b7ec;
+}
+
+#main-nav {
+	border-bottom: 1px solid #eee;
+}
+
