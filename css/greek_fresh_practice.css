@@ -286,6 +286,87 @@ h1.logo {
 		-o-transition: top .5s ease-in-out 0s;
 	}
 
-	
+	#boxes .span4 .transitioner p {
+		background: url('img/2-circle-white.png');
+		width: 210px;
+		height: 90px;
+		padding: 80px 20px;
+		position: relative;
+		left: 50%;
+		margin-left: -125px;
+		margin-top: 33px;
+		color: #000;
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	#menu-links {
+		text-align: right;
+		padding: 50px 0 35px 0;
+	}
+
+	#menu-links a {
+		padding: 11px 0 11px 33px;
+		margin-left: 20px;
+		color: #14b7ec;
+	}
+
+	#menu p {
+		width: 100%;
+		padding-left: 0;
+	}
+
+	#location-content, #other-pages {
+		padding: 50px 20px 20px;
+	}
+
+	.page-id-10 hr, .page-id-47 hr {
+		width: 100%;
+	}
+
+	#locations-content img {
+		width: 100%;
+		height: auto;
+	}
+
+	#z_main {
+		width: 100%;
+	}
+
+	#z_content.cart-right #z_main_column {
+		margin-right: 0;
+	}
+
+	#z_content.cart-right #z_sidebar {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.order-online-bar a {
+		background: url('img/order-online-bar-retina.png') no-repeat left top;
+		-webkit-background-size: 36px 72px;
+		-o-background-size: 36px 72px;
+		background-size: 36px 72px;
+	}
+
+	.social-links #facebook {
+		background: url('img/social-facebook-retina.gif') no-repeat 0 0;
+		-webkit-background-size: 42px 84px;
+		-o-background-size: 42px 84px;
+		background-size: 42px 84px;
+	}
+
+	.social-links #twitter {
+		background: url('img/social-twitter-retina.gif') no-repeat 0 0;
+		-webkit-background-size: 42px 84px;
+		-o-background-size: 42px 84px;
+		background-size: 42px 84px;
+	}
+
+	.social-links #youtube {
+		background: url('img/social-youtube-retina.gif') no-repeat 0 0;
+	}
 }
+
+
 
