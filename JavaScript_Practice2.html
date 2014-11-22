@@ -10,95 +10,25 @@
 	<title>JavaScript Practice</title>
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/boostrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/theme.css">
-	<link rel="stylesheet" type="text/css" href="css/javascript_practice.css">
+	<link rel="stylesheet" type="text/css" href="css/javascript_practice2.css">
 </head>
-
-
 <body role="document" onload="showClock()">
 	<div class="container">
 		<div class="page-header">
-			<h1 style="text-align: center">Javascript Practice</h1>
+			<h1 style="text-align: center">JavaScript Practice</h1>
 		</div>
+
+		<!-- Display the Text -->
+
+		<button type="button" onclick="displayText()">Date</button>
+		<p id="demo"></p>
+
+		<hr>
+		<br>
 	</div>
 
-	<button type="button" onclick="displayText()"></button>
-	<p id="demo"></p>
-
-	<hr>
-	<br>
-
-	<button class="btn btn-primary" onclick="changeText()">Change Text</button>
-	<p id="ct">I am here.</p>
-
-	<hr>
-	<br>
-
-	<img id="switchimage" src="images/cat.png" onclick="switchImage()" width="200px" height="200px"></img>
-
-	<hr>
-	<br>
-
-	<h3 id="headertext">This might turn Red.</h3>
-	<button class="btn btn-success" onclick="changeToRedText()">Red</button>
-
-	<hr>
-	<br>
-	<h3>Please Input a Number</h3>
-	<div class="row">
-		<div class="col-lg-6">
-			<div class="input-group">
-				<span class="input-group-btn">
-					<button class="btn btn-info" onclick="isNumber()">Go!</button>
-				</span>
-				<input type="text" class="form-control" id="inputbox"></input>
-			</div>
-			<p id="result"></p>
-		</div>
-	</div>
-
-	<hr>
-	<br>
-	<h1>Document.write()</h1>
-	<button class="btn btn-warning" onclick="docWrite()">Clear and Write</button>
-
-	<hr>
-	<br>
-	<h1>Console.log()</h1>
-	<button class="btn btn-danger" onclick="doConsole()">Secret Console Message</button>
-
-	<hr>
-	<br>
-	<h3>Multiply</h3>
-	<div class="row">
-		<div class="col-sm-3">
-			#1
-			<input class="form-control" id="one"></input>
-		</div>
-		<div class="col-sm-3">
-			#2
-			<input class="form-control" id="two"></input>
-		</div>
-		<div class="col-sm-3">
-			<p id="product">Product</p>
-			<button class="btn btn-info" onclick="doMultiply()">Multiply</button>
-		</div>
-	</div>
-
-	<!-- JavaScript Objects -->
-	<hr>
-	<br>
-	<h3>JavaScript Objects</h3>
-	<p id="jobjects">Objects</p>
-	<button class="btn btn-primary" onclick="showJavaScriptObject()">Show Object</button>
-
-	<!-- this keyword -->
-	<hr>
-	<br>
-	<h3><strong>This</strong>KeyWord</h3>
-	<button class="btn btn-warning" onclick="this.innerHTML = Date()">Click for Date</button>
-
-
+	<script type="text/javascript" src="js/practice2.js"></script>
 </body>
 </html>
