@@ -450,3 +450,16 @@
 		}
 		y.innerHTML = sum;
 	}
+
+	// addEventListener()
+	function modifyText() {
+		var t2 = $("t2");
+		if (t2.firstChild.nodeValue == "three") {
+			t2.firstChild.nodeValue = "two";
+		} else {
+			t2.firstChild.nodeValue = "three";
+		}
+	}
+	// add event listener to table
+	var el = $("outside");
+	el.addEventListener("click", modifyText, false);
